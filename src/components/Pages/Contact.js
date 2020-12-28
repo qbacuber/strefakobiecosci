@@ -19,8 +19,8 @@ export default function Contact() {
                     <ContactImage src={location} alt="location"/> <span>Hyżne 100 </span>
                 </ContactItem>
                 <ContactItem>
-                    <ContactImage src={Facebook} alt="facebook"/>
-                    <ContactImage src={Instagram} alt="Instagram"/>
+                    <a href="https://www.facebook.com/strefakobiecoscisabinakozera/"> <ContactImage src={Facebook} alt="facebook"/> </a>
+                    <a href="https://www.instagram.com/strefakobiecosci/"><ContactImage src={Instagram} alt="Instagram"/></a>
                 </ContactItem>
                 <ContactItem>
                     <ContentCalender src={calendar} alt="calendar"/><br/><br/>
