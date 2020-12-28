@@ -16,7 +16,6 @@ export const ContentPage = styled.div`
 `
 
 //Header
-
 export const IMG = styled.div`
     background-image: url(${Logo});
     margin-left: auto;
@@ -101,7 +100,6 @@ export const Link = styled(Linkr)`
     }
 `
 
-
 //Home 
 export const TextInHomePage = styled.div`
     font-family: Comfortaa;
@@ -121,10 +119,12 @@ export const TextInHomePage = styled.div`
 export const PageTitle = styled.div`
     font-family: "Dancing Script";
     font-weight: normal;
-    font-size: 75px;
+    font-size: 60px;
     letter-spacing: 0.25em;
     color: #fff;
     text-align: center;
+
+    @media (min-width: 520px) {font-size: 75px;}
 `
 
 //Price List
@@ -134,13 +134,11 @@ export const ItemList = styled.div`
     width: 250px;    
     column-count: 1;
     column-gap: 20px;
-
     margin-top: 50px;
 
     @media (min-width: 340px) {width: 300px;}
     @media (min-width: 800px) {width: 720px; column-count: 2;}
     @media (min-width: 1200px) {width: 1100px; column-count: 3;}
-
 `
 export const Item = styled.div`
     border-radius: 6px;
@@ -189,4 +187,65 @@ export const ItemPrice = styled.div`
     }
 `
 
-//
+//Kontakt
+export const ContactList = styled.div`
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 1;
+    width: 250px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    @media (min-width: 320px) {width: 300px;}
+    @media (min-width: 800px) {width: 720px; column-count: 2;}
+    @media (min-width: 1200px) {width: 1100px; column-count: 3;}
+
+`
+export const ContactItem = styled.div`
+    display: inline-block;
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: #fff;
+    width: 250px;
+    margin-top: 50px;
+    
+    @media (min-width: 320px) {width: 300px;}
+    @media (min-width: 520px) {font-size: 20px; }
+    @media (min-width: 800px) {
+        height: 200px;
+        margin-top: 0; 
+        width: 355px;
+        &:nth-child(2){ width: 720px; }
+    }
+    
+    @media (min-width: 1200px) { &:nth-child(2){width: 355px} }
+
+    span{
+        position: relative;
+        top: -35px;
+    }
+
+`
+export const ContactImage = styled.img`
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+
+    @media (min-width: 520px) {
+        width: 50px;
+        height: 50px;
+    }
+`
+
+export const ContentCalender = styled.img`
+    width: 25px;
+    height: 30px;
+
+    @media (min-width: 520px) {
+        width: 35px;
+        height: 40px
+    }
+`
+

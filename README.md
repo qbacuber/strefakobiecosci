@@ -8,3 +8,6 @@
 
 ## 0.3v
 1. Cennik
+
+## 0.4v
+1. Kontakt
