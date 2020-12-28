@@ -1,5 +1,8 @@
 # Strefa kobiecości
 
+## 0.6v & 0.7v
+1. 404
+
 ## 0.5v
 1. Dodanie linków
 

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { PageTitle } from '../styles/style'
 export default function NotFound() {
     return (
-        <div>
-            
-        </div>
+        <>
+            <PageTitle>ERROR 404</PageTitle>
+        </>
     )
 }
