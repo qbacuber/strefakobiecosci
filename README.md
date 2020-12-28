@@ -1,5 +1,8 @@
 # Strefa kobiecości
 
+## 0.8v & 0.9v & 0.10v
+1. img
+
 ## 0.6v & 0.7v
 1. 404
 
