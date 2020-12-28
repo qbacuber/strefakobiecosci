@@ -14,9 +14,8 @@ export default function Contact() {
             <hr/>
             <ContactList>
                 <ContactItem>
-                    
-                    <ContactImage src={phone} alt="phone"/> <span>609 516 015</span> <br/>
-                    <ContactImage src={location} alt="location"/> <span>Hyżne 100 </span>
+                    <ContactImage src={phone} alt="phone"/> <span><a href="tel:609-516-015">609 516 015</a> </span> <br/>
+                    <ContactImage src={location} alt="location"/> <span><a href="http://maps.google.com/?q=Hyżne 100">Hyżne 100</a> </span>
                 </ContactItem>
                 <ContactItem>
                     <a href="https://www.facebook.com/strefakobiecoscisabinakozera/"> <ContactImage src={Facebook} alt="facebook"/> </a>
@@ -26,10 +25,8 @@ export default function Contact() {
                     <ContentCalender src={calendar} alt="calendar"/><br/><br/>
                     PN ŚR PT <br/>
                     8-16<br/><br/>
-
-                WT CZW<br/>
-                12-19
-
+                    WT CZW<br/>
+                    12-19
                 </ContactItem>
             </ContactList>
         </>
