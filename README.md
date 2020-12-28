@@ -5,3 +5,6 @@
 
 ## 0.2v
 1. Flex-box
+
+## 0.3v
+1. Cennik

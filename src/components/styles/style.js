@@ -131,43 +131,37 @@ export const PageTitle = styled.div`
 export const ItemList = styled.div`
     margin-right: auto;
     margin-left: auto;
-    width: 250px;
+    width: 250px;    
+    column-count: 1;
+    column-gap: 20px;
+
+    margin-top: 50px;
+
     @media (min-width: 340px) {width: 300px;}
-    @media (min-width: 800px) {
-        width: 720px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: row;
-    }
-    @media (min-width: 1200px) {width: 1200px;}
+    @media (min-width: 800px) {width: 720px; column-count: 2;}
+    @media (min-width: 1200px) {width: 1100px; column-count: 3;}
 
 `
 export const Item = styled.div`
     border-radius: 6px;
     border: 2px solid #fff;
-    margin-top: 50px;
-    position: relative;
-    min-height: 55px;
-    
-    width: 250px;
-    @media (min-width: 340px) {width: 300px;}
-    @media (min-width: 800px) {
-        margin: 20px;
-    }
 
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 50px;
+    transition: 0.5s;
 `
 export const ItemName = styled.div`
     font-family: Barlow;
     font-weight: 300;
     letter-spacing: 0.1em;
-    text-align: center;
     color: #fff;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-
-    @media (min-width: 340px) {font-size: 20px}
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    @media (min-width: 800px) {font-size: 20px;}
 
 `
 
@@ -194,3 +188,5 @@ export const ItemPrice = styled.div`
         font-size: 18px;
     }
 `
+
+//

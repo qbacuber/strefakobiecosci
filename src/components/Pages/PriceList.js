@@ -20,6 +20,9 @@ const ListPrice = [
     ["Usuniecięcie stylizacji żelowej", "20zł"],
     ["Usunięcie stylizacji hybrydowej", "10zł"],
     ["Usunięcie stylizacji wykonanej w naszym salonie", "GRATIS"],
+    ["Henna żelowa + regulacja ", "35zł"],
+    ["Henna pudrowa + regulacja", "50zł"],
+    ["Lifting, laminacja, botox i henna rzęs ", "100zł"],
 ]
 
 export default function PriceList() {
